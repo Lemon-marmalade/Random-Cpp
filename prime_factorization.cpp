@@ -7,7 +7,7 @@ bool checkprime(int n);
 int main()
 {
     int x = 0;
-    cout<<"Input a number to for its prime factorization: ";
+    cout<<"Input a number for its prime factorization: ";
     cin>>x;
     // Check if x is prime
     if (checkprime(x)){
